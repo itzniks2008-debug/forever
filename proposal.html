@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Forever ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+background:#111;
+color:white;
+}
+
+.proposal{
+text-align:center;
+padding:40px;
+}
+
+.big-heart{
+font-size:90px;
+animation:beat 1s infinite;
+margin-bottom:20px;
+}
+
+.question{
+font-size:38px;
+line-height:1.5;
+margin:30px 0;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+margin:15px;
+border:none;
+border-radius:50px;
+font-size:20px;
+cursor:pointer;
+text-decoration:none;
+background:#ff3b6b;
+color:white;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+#result{
+margin-top:40px;
+font-size:22px;
+line-height:1.7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="proposal">
+
+<div class="big-heart">❤️</div>
+
+<h1>Riti...</h1>
+
+<div class="question">
+
+Will you be my forever? ❤️
+
+</div>
+
+<button class="btn" onclick="yesAnswer()">
+
+💖 Yes
+
+</button>
+
+<button class="btn" onclick="timeAnswer()">
+
+🌸 I need some time
+
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<script>
+
+function yesAnswer(){
+
+document.getElementById("result").innerHTML=
+
+"<h2>❤️ Thank You Riti ❤️</h2><br>You just made Nikhil the happiest person.<br><br>I promise to always respect you, support you, and cherish every moment with you. 🌹";
+
+}
+
+function timeAnswer(){
+
+document.getElementById("result").innerHTML=
+
+"<h2>🌸 Thank You 🌸</h2><br>Take all the time you need.<br><br>Whatever your answer is, I will always respect it. ❤️";
+
+}
+
+</script>
+
+</body>
+</html>
